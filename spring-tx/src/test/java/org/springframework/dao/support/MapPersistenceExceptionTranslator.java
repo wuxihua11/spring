@@ -19,6 +19,7 @@ package org.springframework.dao.support;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.dao.DataAccessException;
 
 public class MapPersistenceExceptionTranslator implements PersistenceExceptionTranslator {
